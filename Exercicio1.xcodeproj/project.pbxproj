@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE0CF6071B0D505500D2C0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CF6061B0D505500D2C0A0 /* main.m */; };
+		CE2448821B2B8CD1001D233C /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2448811B2B8CD1001D233C /* XYZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CE0CF6031B0D505500D2C0A0 /* Exercicio1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercicio1; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0CF6061B0D505500D2C0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2448801B2B8B49001D233C /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		CE2448811B2B8CD1001D233C /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		CE0CF5FA1B0D505500D2C0A0 = {
 			isa = PBXGroup;
 			children = (
+				CE2448801B2B8B49001D233C /* XYZPerson.h */,
+				CE2448811B2B8CD1001D233C /* XYZPerson.m */,
 				CE0CF6051B0D505500D2C0A0 /* Exercicio1 */,
 				CE0CF6041B0D505500D2C0A0 /* Products */,
 			);
@@ -97,7 +102,7 @@
 				};
 			};
 			buildConfigurationList = CE0CF5FE1B0D505500D2C0A0 /* Build configuration list for PBXProject "Exercicio1" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2448821B2B8CD1001D233C /* XYZPerson.m in Sources */,
 				CE0CF6071B0D505500D2C0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +241,7 @@
 				CE0CF60C1B0D505500D2C0A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
